@@ -11,4 +11,6 @@ RUN usermod -u 1000 www-data
 
 CMD ["php5-fpm", "-F"]
 
+WORKDIR /var/www/symfony
+
 EXPOSE 9000
